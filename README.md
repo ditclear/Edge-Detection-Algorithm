@@ -1,10 +1,10 @@
 #边缘检测算法实现 in java
 
-1.Robert Gradient
+###1.Robert Gradient
 
 ![Robert](https://github.com/vienan/Edge-Detection-Algorithm/blob/master/Robert%20Gradient.png)
 
-####Code
+Code
 
 ```java
  public Bitmap RobertGradient(Bitmap myBitmap){  
@@ -42,11 +42,11 @@
 
 ```
 
-2.Sobel Gradient
+###2.Sobel Gradient
 
 ![Sobel](https://github.com/vienan/Edge-Detection-Algorithm/blob/master/%20Sobel%20Gradient.png)
 
-####Code
+Code
 ```java
 public Bitmap SobelGradient(Bitmap myBitmap){  
         // Create new array  
@@ -87,11 +87,11 @@ public Bitmap SobelGradient(Bitmap myBitmap){
     }  
 ```
 
-3.Laplace Gradient
+###3.Laplace Gradient
 
 ![Laplace](https://github.com/vienan/Edge-Detection-Algorithm/blob/master/Laplace%20Gradient.png)
 
-####Code
+Code
 ```java
 public Bitmap LaplaceGradient(Bitmap myBitmap){  
         // Create new array  
